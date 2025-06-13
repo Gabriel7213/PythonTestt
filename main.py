@@ -80,7 +80,7 @@ def gaseste_numar_maxim(numere):
 
   for i in range(numere):
     biggest_number = 0
-    if i > q:
+    if i > biggest_number:
       biggest_number = i
       print(biggest_number)
 
